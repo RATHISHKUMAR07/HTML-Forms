@@ -1,0 +1,122 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<title>Resume Interview</title>
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: rgba(255, 192, 203, 0.37);  
+}  
+.container {  
+    padding: 50px;  
+  background-image: url('images.jfif');  
+  background-color: #cccccc;
+  height: 950px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: orange;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+</head>  
+<body>  
+<form>  
+    <center>  <h1> STUDENT RESUME INTERVIEW</h1> </center>  
+  <div class="container">  
+  
+  <hr>  
+  <label><b>  Firstname </b> </label>   
+<input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
+<label> <b> Middlename: </b> </label>   
+<input type="text" name="middlename" placeholder="Middlename" size="15" required />   
+<label> <b> Lastname: </b> </label>    
+<input type="text" name="lastname" placeholder="Lastname" size="15"required />
+<label><b>  DOB: </b> </label>    
+<input type="date" name="dateofbirth" placeholder="dateofbirth" size="15"required />
+<br>
+<br>
+<label> <b> CGPA: </b> </label>    
+<input type="number" name="cgpa" placeholder="cgpa" size="3"required />   
+<br>
+<div>  
+<label> <b>   
+Course :  
+</label> </b>   
+
+<select>  
+<option value="Course">Course</option>  
+<option value="BCA">BCA</option>  
+<option value="BBA">BBA</option>  
+<option value="B.Tech">B.Tech</option>  
+<option value="MBA">MBA</option>  
+<option value="MCA">MCA</option>  
+<option value="M.Tech">M.Tech</option>  
+</select>  
+</div>  
+<div>  
+<label>  <b>
+Gender :  </b> 
+</label><br>  
+<input type="radio" value="Male" name="gender" checked > Male   
+<input type="radio" value="Female" name="gender"> Female   
+<input type="radio" value="Other" name="gender"> Other  
+  
+</div>  
+<label> <b>   
+Phone :  </b>
+</label>   
+<input type="text" name="phone" placeholder="phone no." size="10"/ required> <b>   
+Current Address :  </b> 
+<textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+</textarea>  
+ <label for="email"><b>Email</b></label>  
+ <input type="text" placeholder="Enter Email" name="email" required>  
+<br>
+<label for="Linkedin"><b>Linkedin</b></label>  
+ <input type="text" placeholder="Enter Linkedin id" name="Linkedin" required>  
+<br>
+ <label for="Resume file"><b>Resume File</b></label>  
+ &nbsp;
+
+ <input type="file" placeholder="Submit File" name="Resume" required>  
+  <br>
+  <br>
+   
+    <button type="submit" class="registerbtn">Register</button>    
+</form>  
+</body>  
+</html>  
